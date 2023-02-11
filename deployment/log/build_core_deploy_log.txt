@@ -1,0 +1,10 @@
+Buildfile: C:\Users\3363\Desktop\Leave Management12\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 32 files to C:\Users\3363\Desktop\Leave Management12\deployment
+     [copy] Copying 8 files to C:\Users\3363\Desktop\Leave Management12\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+

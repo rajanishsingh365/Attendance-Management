@@ -1,0 +1,12 @@
+Buildfile: C:\Users\3363\Desktop\Leave Management12\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\3363\Desktop\Leave Management12\deployment\run\bin
+
+package:
+      [jar] Building jar: C:\Users\3363\Desktop\Leave Management12\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+

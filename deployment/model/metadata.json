@@ -1,0 +1,100 @@
+{
+  "RuntimeVersion": "8.18.16.39115",
+  "ProjectID": "22b05232-b1bf-4f08-8498-99fa7c87a590",
+  "ProjectName": "Leave Management1",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "51df677b-b8fb-4b79-831f-07f6803e9d78",
+        "e087c886-92a1-45e0-8d48-2804d1a150e3"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    },
+    "51df677b-b8fb-4b79-831f-07f6803e9d78": {
+      "Name": "Manager",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "51df677b-b8fb-4b79-831f-07f6803e9d78",
+        "e087c886-92a1-45e0-8d48-2804d1a150e3"
+      ]
+    },
+    "e087c886-92a1-45e0-8d48-2804d1a150e3": {
+      "Name": "HR",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "51df677b-b8fb-4b79-831f-07f6803e9d78",
+        "e087c886-92a1-45e0-8d48-2804d1a150e3"
+      ]
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [
+    {
+      "Name": "Atlas_UI_Resources.Atlas_UI_Resources_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": " 2.6.3"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "DataBrokerConfiguration": {
+    "publishedServices": []
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api-doc/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}
